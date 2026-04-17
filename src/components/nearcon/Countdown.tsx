@@ -78,7 +78,7 @@ export function Countdown() {
 
   return (
     <motion.section
-      className="relative overflow-hidden border-b border-text-primary py-20 px-6 md:px-12 flex justify-center bg-nearcon-cream"
+      className="relative overflow-hidden border-b border-text-primary py-20 px-[50px] flex justify-center bg-nearcon-cream"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: '-100px' }}

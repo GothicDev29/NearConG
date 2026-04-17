@@ -17,10 +17,18 @@ export default function Home() {
       {/* Full-width sticky navbar */}
       <Navbar />
 
-      {/* Sections before black section — constrained to 1550px */}
-      <div className="max-w-[1550px] mx-auto">
+      {/* Hero section */}
+      <div className="max-w-[1580px] mx-auto">
         <Hero />
+      </div>
+
+      {/* IntroText section */}
+      <div className="max-w-[1400px] mx-auto">
         <IntroText />
+      </div>
+
+      {/* Countdown section */}
+      <div className="max-w-[1580px] mx-auto">
         <Countdown />
       </div>
 
@@ -28,7 +36,7 @@ export default function Home() {
       <WhatToExpect />
 
       {/* Sections between black sections — constrained to 1550px */}
-      <div className="max-w-[1550px] mx-auto">
+      <div className="max-w-[1580px] mx-auto">
         <div className="h-12 w-full pattern-diagonal border-b border-text-primary opacity-50" />
         <Speakers />
         <Schedule />
@@ -41,7 +49,7 @@ export default function Home() {
       <PreviousNearcons />
 
       {/* Footer — constrained to 1550px */}
-      <div className="max-w-[1550px] mx-auto">
+      <div className="max-w-[1580px] mx-auto">
         <Footer />
       </div>
     </div>
