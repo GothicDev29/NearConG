@@ -17,7 +17,7 @@ const itemVariants = {
 export function IntroText() {
   return (
     <motion.section
-      className="px-[50px] py-16 md:py-24 border-b border-text-primary flex items-stretch gap-[80px]"
+      className="px-[50px] py-16 md:py-24 flex items-stretch gap-[80px]"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: '-80px' }}

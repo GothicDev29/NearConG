@@ -79,7 +79,7 @@ export function Countdown() {
 
   return (
     <motion.section
-      className="relative overflow-hidden border-b border-text-primary py-20 px-[50px] flex justify-center bg-nearcon-cream"
+      className="relative overflow-hidden py-20 px-[50px] flex justify-center items-center bg-nearcon-cream min-h-[750px] mt-4 md:mt-12"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: '-100px' }}
@@ -95,20 +95,20 @@ export function Countdown() {
       />
 
       {/* Grid Items */}
-      <motion.div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-[1580px] w-full relative z-10 mx-auto" variants={containerVariants}>
+      <motion.div className="grid grid-cols-2 md:grid-cols-4 gap-[4em] max-w-[1580px] w-full relative z-10 mx-auto px-[50px]" variants={containerVariants}>
         {items.map((item, idx) => (
           <motion.div
             key={idx}
-            className="bg-nearcon-cream p-[35px] flex flex-col items-center justify-center relative"
+            className="flex flex-col items-center gap-[25px] relative"
             variants={itemVariants}
           >
             {/* Number Display */}
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-nearcon-cream w-full">
               <span className="text-[178px] font-light text-black" style={{ fontFamily: 'Roboto Mono' }}>{item.value}</span>
             </div>
 
             {/* Label */}
-            <span className="font-helvetica text-[29px] font-bold text-black">{item.label}</span>
+            <span className="bg-nearcon-cream font-helvetica text-[29px] font-bold text-black w-full text-left pl-[20px]">{item.label}</span>
           </motion.div>
         ))}
       </motion.div>
