@@ -28,9 +28,7 @@ export default function Home() {
       </div>
 
       {/* Countdown section */}
-      <div className="max-w-[1580px] mx-auto">
-        <Countdown />
-      </div>
+      <Countdown />
 
       {/* Full-width black section */}
       <WhatToExpect />
