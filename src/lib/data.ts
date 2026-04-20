@@ -158,10 +158,10 @@ export const MEDIA_PARTNERS: Partner[] = [
 ]
 
 export const PREVIOUS_NEARCON_IMAGES = [
-  'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=500&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=500&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1511578314322-379afb476865?w=500&h=500&fit=crop',
+  '/img/Near_pictures_-2-2.png',
+  '/img/Near_pictures_-9.png',
+  '/img/Near_pictures_-1.png',
+  '/img/Near_pictures_-10.jpg',
 ]
 
 export const RUNNING_NUMBERS =
