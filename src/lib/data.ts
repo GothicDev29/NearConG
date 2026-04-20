@@ -6,7 +6,7 @@ export const SPEAKERS: Speaker[] = [
     name: 'Illia Polosukhin',
     organization: 'NEAR Protocol',
     title: 'Co-Founder',
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=400',
+    imageUrl: '/img/07-Illia-Polosukhin-1.jpg',
     accentColor: '#65D56E',
   },
   {
@@ -14,7 +14,7 @@ export const SPEAKERS: Speaker[] = [
     name: 'Jessica Scrimale',
     organization: 'Oracle',
     title: 'Vice President, Product Strategy, AI',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=400',
+    imageUrl: '/img/35-Jessica-Scrimale.jpg',
     accentColor: '#59C2E8',
   },
   {
@@ -22,7 +22,7 @@ export const SPEAKERS: Speaker[] = [
     name: 'Lukasz Kaiser',
     organization: 'OpenAI',
     title: 'Researcher',
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=400',
+    imageUrl: '/img/17-Lukasz-Kaiser-1.jpg',
     accentColor: '#00c8ff',
   },
 ]
